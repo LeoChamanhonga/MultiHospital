@@ -30,7 +30,7 @@ $lang['nurse'] = 'Enfermeira';
 $lang['pharmacist'] = 'Farmacêutico';
 $lang['laboratorist'] = 'Laboratorista';
 $lang['accountant'] = 'Contador';
-$lang['payment'] = 'Forma de pagamento';
+$lang['payment'] = 'Comprovativo';
 $lang['medicine'] = 'Remédio';
 $lang['report'] = 'Relatório';
 $lang['operation_report'] = 'Relatório de Operação';
@@ -53,15 +53,15 @@ $lang['my_last_login'] = 'Meu último Login';
 $lang['my_reports'] = 'Meus Relatórios';
 $lang['hms'] = 'Sistema de Gestão Hospitalar'; 
 
-$lang['see_all_patients'] = 'Ver todos os pacientes'; 
-$lang['see_all_payments'] = 'Ver todos os pagamentos';
-$lang['see_all_medicines'] = 'Ver todos os medicamentos';
+$lang['see_all_patients'] = 'Pacientes'; 
+$lang['see_all_payments'] = 'Pagamentos';
+$lang['see_all_medicines'] = 'Todos os Remédios';
 $lang['payment_today'] = 'Pagamento Hoje';
 $lang['payments_today'] = 'Pagamentos hoje';
 $lang['patient_registered_today'] = 'Paciente registrado hoje';
 $lang['patients_registered_today'] = 'Pacientes registrados hoje';
-$lang['medicine_registered_today'] = 'Medicina registrada hoje';
-$lang['medicine_registered_today'] = 'Medicamentos registrados hoje';
+$lang['medicine_registered_today'] = 'Remédio registrados hoje';
+$lang['medicine_registered_today'] = 'Remédios registrados hoje';
 
 $lang['log_out'] = 'Sair';
 
@@ -91,7 +91,7 @@ $lang['doctors'] = 'Médicos';
 $lang['add_doctor'] = 'Adicionar médico';
 $lang['edit_doctor'] = 'Editar Médico';
 $lang['image'] = 'Imagem';
-$lang['email'] = 'o email';
+$lang['email'] = 'email';
 $lang['address'] = 'Endereço';
 $lang['phone'] = 'telefone';
 $lang['password'] = 'Senha';
@@ -102,7 +102,7 @@ $lang['register_new_patient'] = 'Registrar Paciente';
 $lang['edit_patient'] = 'Editar Paciente';
 $lang['birth_date'] = 'Data de nascimento';
 $lang['blood_group'] = 'Grupo sanguíneo';
-$lang['due_balance'] = 'Equilíbrio devedor';
+$lang['due_balance'] = 'Valor Pendente';
 $lang['invoice'] = 'Fatura';
 $lang['details'] = 'Detalhes';
 $lang['bio_graph'] = 'Bio Graph';
@@ -131,22 +131,22 @@ $lang['add_pharmacist'] = 'Adicionar Farmacêutico';
 $lang['edit_pharmacist'] = 'Editar farmacêutico';
 
 // Laboratorist
-$lang['add_laboratorist'] = 'Adicionar laboratorista';
+$lang['add_laboratorist'] = 'Adicionar';
 $lang['edit_laboratorist'] = 'Editor laboratorial';
 
 // Accountant
-$lang['add_accountant'] = 'Adicionar contador';
-$lang['edit_accountant'] = 'Editar contador';
+$lang['add_accountant'] = 'Adicionar';
+$lang['edit_accountant'] = 'Editar';
 
 
 // Financial Activities
 $lang['payments'] = 'Pagamentos';
-$lang['date'] = 'Encontro';
+$lang['date'] = 'Data';
 $lang['sub_total'] = 'Sub total';
 $lang['discount'] = 'Desconto';
-$lang['vat'] = 'Cuba';
+$lang['vat'] = 'IVA';
 $lang['total'] = 'Total';
-$lang['status'] = 'Status';
+$lang['status'] = 'Estado';
 $lang['invoice_info'] = 'INFORMAÇÃO DE FACTURA';
 $lang['invoice_status'] = 'ESTATUTO DE FACTURA';
 $lang['paid'] = 'Pago';
@@ -172,18 +172,18 @@ $lang['edit_expense_category'] = 'Editar categoria de despesas';
 $lang['financial_report'] = 'Relatório financeiro';
 $lang['payment_report'] = 'Relatório de pagamento';
 $lang['expense_report'] = 'Relatório de despesas';
-$lang['gross_payment'] = 'Pagamento bruto';
-$lang['gross_expense'] = 'Despesa bruta';
+$lang['gross_payment'] = 'Total de Pagamento';
+$lang['gross_expense'] = 'Total de Despesa';
 $lang['total'] = 'Total';
 $lang['sub_total'] = 'Sub Total';
 $lang['profit'] = 'Lucro';
 
 $lang['payment_to'] = 'PAGAMENTO PARA';
-$lang['bill_to'] = 'PROJETO DE LEI PARA';
-$lang['invoice_number'] = 'Número da nota fiscal';
+$lang['bill_to'] = 'FATURA PARA';
+$lang['invoice_number'] = 'Fatura Nr.';
 $lang['invoice'] = 'Fatura';
-$lang['grand_total'] = 'Total geral';
-$lang['make_paid'] = 'Fazer pago';
+$lang['grand_total'] = 'Total';
+$lang['make_paid'] = 'Fazer pagamento';
 $lang['edit_invoice'] = 'Editar Fatura';
 
 $lang['percentage'] = 'Percentagem';
@@ -199,32 +199,32 @@ $lang['procedure'] = 'Procedimento';
 
 // Medicine
 $lang['medicine'] = 'Remédio';
-$lang['add_medicine'] = 'Adicionar Medicina';
-$lang['medicine_list'] = 'Lista de medicamentos';
-$lang['edit_medicine'] = 'Editar Medicina';
+$lang['add_medicine'] = 'Adicionar Remédio';
+$lang['medicine_list'] = 'Lista de Remédios';
+$lang['edit_medicine'] = 'Editar';
 $lang['price'] = 'Preço';
 $lang['quantity'] = 'Quantidade';
 $lang['generic_name'] = 'Nome genérico';
-$lang['company'] = 'Empresa';
+$lang['company'] = 'Fornecedor';
 $lang['effects'] = 'Efeitos';
 $lang['expiry_date'] = 'Data de validade';
 
-$lang['medicine_category'] = 'Categoria de Medicina';
-$lang['add_medicine_category'] = 'Adicionar Categoria de Medicina';
-$lang['edit_medicine_category'] = 'Editar categoria de medicina';
+$lang['medicine_category'] = 'Categoria de Remedio';
+$lang['add_medicine_category'] = 'Adicionar Categoria de Remedio';
+$lang['edit_medicine_category'] = 'Editar categoria de Remedio';
 
 // Donor
 $lang['donor'] = 'Doador';
 $lang['donor_list'] = 'Lista de doadores';
 $lang['add_donor'] = 'Adicionar Doador';
 $lang['edit_donor'] = 'Editar doador';
-$lang['age'] = 'Era';
+$lang['age'] = 'Idade';
 $lang['sex'] = 'Sexo';
 $lang['last_donation_date'] = 'Data da última doação';
 $lang['male'] = 'Masculino';
-$lang['female'] = 'Fêmea';
+$lang['female'] = 'Femenino';
 $lang['blood_bank'] = 'Banco de sangue';
-$lang['update_blood_bank'] = 'Atualizar Sangue Banco';
+$lang['update_blood_bank'] = 'Atualizar Banco de Sangue';
 $lang['group'] = 'Grupo';
 $lang['others'] = 'Outras';
 
@@ -238,7 +238,7 @@ $lang['bed_category'] = 'Categoria de cama';
 $lang['bed_allotments'] = 'Aluguéis de cama';
 $lang['add_allotment'] = 'Adicionar alocação';
 $lang['edit_allotment'] = 'Editar alocação';
-$lang['bed_id'] = 'Cama Identidade';
+$lang['bed_id'] = 'ID Cama';
 $lang['bed_number'] = 'Número de cama';
 $lang['add_bed_category'] = 'Adicionar categoria de cama';
 $lang['edit_bed_category'] = 'Editar categoria de cama';
@@ -290,20 +290,20 @@ $lang['history'] = 'História';
 
 $lang['system_title'] = 'Doctor Care - Centro de Diagnóstico / Sistema de Gestão da Câmara dos Médicos';
 
-$lang['gross_total'] =  'Total bruto';
+$lang['gross_total'] =  'Valor Total';
 $lang['amount_received'] =  'Montante recebido';
-$lang['gross_expense'] = 'Despesa bruta';
+$lang['gross_expense'] = 'Total de Despesa';
 $lang['total'] = 'Total';
 $lang['sub_total'] = 'Sub Total';
 $lang['due_amount'] = 'Valor devedor';
 $lang['due_balance'] = 'Equilíbrio devedor';
-$lang['patient_id'] = 'Identificação do paciente';
+$lang['patient_id'] = 'NID';
 
 $lang['unpaid'] = 'Não remunerado';
 $lang['paid_partially'] = 'Pago parcialmente';
 $lang['paid'] = 'Pago';
 
-$lang['amount_to_be_paid'] = 'Montante a ser pago';
+$lang['amount_to_be_paid'] = 'Troco';
 $lang['amount_received'] = 'Montante recebido';
 
 $lang['confirmation'] = 'Confirmação';
@@ -316,13 +316,13 @@ $lang['patient'] = 'Paciente';
 
 $lang['refd_by_doctor'] = 'Refd By Doctor';
 
-$lang['date'] = 'Encontro';
+$lang['date'] = 'Data';
 
 $lang['sub_total'] = 'Sub Total';
 
 $lang['discount'] = 'Desconto';
 
-$lang['doctor_amount'] = 'Médico Valor';
+$lang['doctor_amount'] = 'Comissão Médico';
 
 $lang['hospitl_amount'] = 'Montante hospitalar';
 
@@ -333,7 +333,7 @@ $lang['all'] = 'Todos';
 $lang['today'] = 'Hoje';
 $lang['yesterday'] = 'Ontem';
 $lang['all_bills'] = 'Todas as contas';
-$lang['date'] = 'Encontro';
+$lang['date'] = 'Data';
 $lang['bill_amount'] = 'Montante de dinheiro';
 $lang['deposits'] = 'Depósitos';
 $lang['deposit'] = 'Depósito';
@@ -351,7 +351,7 @@ $lang['surgeon_fee'] = 'Taxa de Cirurgião';
 
 $lang['ot_payments'] = 'Pagamentos OT';
 $lang['add_ot_payment'] = 'Adicionar PARA PAGAR';
-$lang['payment_procedures'] = 'Procedimentos de pagamento';
+$lang['payment_procedures'] = 'Serviços';
 
 $lang['activities_by'] = 'Atividades por';
 $lang['all_users'] = 'Todos os usuários';
@@ -359,9 +359,9 @@ $lang['deposited_amount'] = 'Montante depositado';
 $lang['payment_received'] = 'Pagamento recebido';
 
 
-$lang['payment_history'] = 'Histórico de pagamento';
+$lang['payment_history'] = 'Extrato de pagamento';
 
-$lang['add_new'] = 'Adicionar novo';
+$lang['add_new'] = 'Novo';
 $lang['add_new_doctor'] = 'Adicionar novo médico';
 
 $lang['add_general_payment'] = 'Adicionar pagamento geral';
@@ -380,8 +380,8 @@ $lang['nature_of_operation'] = 'Natureza da Operação';
 
 
 $lang['ot_charge'] = 'AT Charge';
-$lang['cabin_rent'] = 'Aluguel de cabine';     
-$lang['seat_rent'] = 'Assento Aluguel';
+$lang['cabin_rent'] = 'Aluguer de cabine';     
+$lang['seat_rent'] = 'Aluguer';
 
 $lang['rate'] = 'Taxa';
 
@@ -394,22 +394,22 @@ $lang['add_new_allotment'] = 'Adicionar novo alocamento';
 $lang['birth_report'] = 'Relatório de nascimento';
 $lang['add_new_report'] = 'Adicionar novo relatório';
 
-$lang['add_new_patient'] = 'Adicionar novo paciente';
-$lang['add_new_medicine'] = 'Adicionar nova medicina';
-$lang['add_new_doctor'] = 'Adicionar novo médico';
-$lang['add_new_laboratorist'] = 'Adicionar Novo Laboratorista';
+$lang['add_new_patient'] = 'Novo paciente';
+$lang['add_new_medicine'] = 'Novo Remedio';
+$lang['add_new_doctor'] = 'Novo médico';
+$lang['add_new_laboratorist'] = 'Novo Tec. Laboratorio';
 $lang['add_new_donor'] = 'Adicionar novo doador';
 
 
 
 
-$lang['add_new_payment'] = 'Adicionar novo pagamento';
+$lang['add_new_payment'] = 'Novo pagamento';
 $lang['edit_ot_payment'] = 'Editar o pagamento';
 
 
 
 
-$lang['add_new_pharmacist'] = 'Adicionar novo farmacêutico';
+$lang['add_new_pharmacist'] = 'Novo farmacêutico';
 
 $lang['add_deposit'] = 'Adicionar depósito';
 $lang['edit_deposit'] = 'Editar depósito';
@@ -463,7 +463,7 @@ $lang['add_prescription'] = 'Adicionar prescrição';
 $lang['edit_prescription'] = 'Editar Prescrição';
 
 $lang['list_of_departments'] = 'Lista De Departamentos';
-$lang['gross_income'] = 'Renda Bruta';
+$lang['gross_income'] = 'Total de Rec.';
 $lang['hospital_amount'] = 'Montante hospitalar';
 $lang['doctors_amount'] = 'Médicos Montante';
 $lang['ot_income_report'] = 'Relatório de renda do OT';
@@ -475,17 +475,17 @@ $lang['gross_ot_income'] = 'Renda BR Grossida';
 $lang['discount_type'] = 'Tipo de desconto';
 $lang['gross_bill'] = 'Bill Gross';
 
-$lang['gross_hospital_amount'] = 'Montante bruto do hospital'; 
-$lang['gross_doctors_commission'] = 'Comissão de Médicos Brutos';
-$lang['gross_deposit'] = 'Depósito bruto';
+$lang['gross_hospital_amount'] = 'Vendas Liquidas'; 
+$lang['gross_doctors_commission'] = 'Comissão de Médicos';
+$lang['gross_deposit'] = 'Depósitos/Caução';
 $lang['gross_due'] = 'Vencimento bruto';
-$lang['gross_expense'] = 'Despesa bruta';
+$lang['gross_expense'] = 'Total de Despesas';
 
 $lang['date_from'] = 'Data de';
 $lang['date_to'] = 'Data para';
-$lang['add_new_medicine_category'] = 'Adicionar Nova Categoria de Medicina';
-$lang['edit_medicine_category'] = 'Editar categoria de medicina';
-$lang['gross_bill'] = 'Bruto conta';
+$lang['add_new_medicine_category'] = 'Adicionar Nova Categoria de Medicamento';
+$lang['edit_medicine_category'] = 'Editar categoria de Medicamento';
+$lang['gross_bill'] = 'Pendente Total';
 
 
 
@@ -502,7 +502,7 @@ $lang['patient_registerred_today'] = 'Paciente registrado hoje';
 $lang['patients_registerred_today'] = 'Pacientes registrados hoje';
 $lang['donor_registerred_today'] = 'Doador registrado hoje';
 $lang['donors_registerred_today'] = 'Doador registrado hoje';
-$lang['medicine_registerred_today'] = 'Medicina registrada hoje';
+$lang['medicine_registerred_today'] = 'Medicamentos registrados hoje';
 $lang['medicines_registered_today'] = 'Medicamentos registrados hoje';
 
 
@@ -515,10 +515,10 @@ $lang['reports_are_available_for_you'] = 'Os relatórios estão disponíveis par
 $lang['bed_is_available'] = 'Cama disponível';
 
 $lang['beds_are_available'] = 'Camas estão disponíveis';
-$lang['gross_bill'] = 'Bruto conta';
-$lang['gross_bill'] = 'Bruto conta';
-$lang['gross_bill'] = 'Bruto conta';
-$lang['gross_bill'] = 'Bruto conta';
+$lang['gross_bill'] = 'Total conta';
+$lang['gross_bill'] = 'Total conta';
+$lang['gross_bill'] = 'Total conta';
+$lang['gross_bill'] = 'Total conta';
 
 
 
@@ -554,7 +554,7 @@ $lang['calendar'] = 'Calendário';
 
 
 
-$lang['income'] = 'Renda';
+$lang['income'] = 'Redimentos';
 
 $lang['from'] = 'A partir de';
 
@@ -574,7 +574,7 @@ $lang['documents'] = 'Documentos';
 
 $lang['case'] = 'Caso';
 
-$lang['history'] = 'História';
+$lang['history'] = 'Histórico';
 
 $lang['document'] = 'Documento';
 
@@ -623,9 +623,9 @@ $lang['diagnostic_test_result'] = 'Resultado do Teste de Diagnóstico';
 
 $lang['add_update'] = 'Adicionar / Atualizar';
 
-$lang['doctors_commission'] = 'Comissão de Médicos';
+$lang['doctors_commission'] = 'Comissão de Médico';
 
-$lang['total_doctors_commission'] = 'Total Doctors Commission';
+$lang['total_doctors_commission'] = 'Total de Comissão';
 
 
 
@@ -668,7 +668,7 @@ $lang['store_box'] = 'Caixa da loja';
 $lang['all_sales'] = 'Todas as vendas';
 $lang['poss'] = 'Ponto de venda';
 $lang['sales'] = 'Vendas';
-$lang['add_new_sale'] = 'Adicionar nova venda';
+$lang['add_new_sale'] = 'Nova venda';
 $lang['load'] = 'Carga';
 $lang['p_price'] = 'Preço de compra';
 $lang['s_price'] = 'Preço de venda';
@@ -682,8 +682,8 @@ $lang['cost'] = 'Custo';
 
 $lang['unit_price'] = 'Preço unitário';
 $lang['total_per_item'] = 'Total por item';
-$lang['medicine_stock_alert'] = 'Alerta de estoque de medicina';
-$lang['alert_stock_list'] = 'Lista de Alerta de Estoque';
+$lang['medicine_stock_alert'] = 'Alerta de stock Medicamentos';
+$lang['alert_stock_list'] = 'Lista de Alerta de Stock';
 
 $lang['login_title'] = 'Título do Login';
 $lang['login_logoo'] = 'Logotipo de login';
@@ -695,7 +695,7 @@ $lang['logo'] = 'Logotipo';
 
 
 
-$lang['load_medicine'] = 'Carregar Medicina';
+$lang['load_medicine'] = 'Carregar Stock';
 $lang['add_quantity'] = 'Adicionar quantidade';
 
 
@@ -722,7 +722,7 @@ $lang['number_of_expenses'] = 'Número de despesas';
 $lang['total_expense'] = 'Custo total';
 $lang['medicine_number'] = 'Medicine Number';
 $lang['medicine_quantity'] = 'Quantidade de medicamentos';
-$lang['medicine_o_s'] = 'Medicina fora de estoque';
+$lang['medicine_o_s'] = 'Sem Stock';
 $lang['latest_sales'] = 'Últimas vendas';
 $lang['latest_expense'] = 'Despesa Mais Recente';
 $lang['latest_medicines'] = 'Medicamentos Mais Recentes';
@@ -738,7 +738,7 @@ $lang['arabic'] = 'árabe';
 $lang['payment_gateways'] = 'Gateways de pagamento';
 $lang['labs'] = 'Testes de laboratório';
 $lang['add_lab'] = 'Adicionar teste de laboratório';
-$lang['add_new_lab'] = 'Adicionar novo teste de laboratório';
+$lang['add_new_lab'] = 'Novo teste de laboratório';
 $lang['edit_lab'] = 'Editar teste de laboratório';
 $lang['lab_category'] = 'Categoria de laboratório';
 $lang['add_lab_category'] = 'Adicionar categoria de laboratório';
@@ -753,7 +753,7 @@ $lang['reference_value'] = 'Valor de referência';
 $lang['edit_lab_test'] = 'Editar teste de laboratório';
 $lang['report_id'] = 'ID do relatório';
 $lang['result'] = 'Resultado';
-$lang['add_a_new_report'] = 'Adicionar um novo relatório';
+$lang['add_a_new_report'] = 'Novo relatório';
 $lang['lab_procedures'] = 'Procedimentos laboratoriais';
 $lang['edit_lab_report'] = 'Editar relatório de laboratório';
 $lang['change_language'] = 'Mudar idioma';
@@ -870,10 +870,10 @@ $lang['time_slot'] = 'Time Slot';
 $lang['request_a_appointment'] = 'Solicitar um compromisso';
 
 
-$lang['add_new_bed'] = 'Adicionar cama nova';
+$lang['add_new_bed'] = 'Cama nova';
 
 
-$lang['notice'] = 'Aviso prévio';
+$lang['notice'] = 'Aviso';
 $lang['add_notice'] = 'Adicionar aviso';
 $lang['edit_notice'] = 'Editar aviso';
 $lang['start'] = 'Começar';
@@ -1011,7 +1011,7 @@ $lang['sms_gateways'] = 'Sms Gateways';
 
 
 
-$lang['add_new_hospital'] = 'Adicionar novo hospital';
+$lang['add_new_hospital'] = 'Novo hospital';
 $lang['edit_hospital'] = 'Editar Hospital';
 
 $lang['module_permission'] = 'Permissão do módulo';
